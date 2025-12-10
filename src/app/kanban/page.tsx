@@ -17,7 +17,7 @@ export default function Page() {
   }, [isLogged, router]);
 
   return (
-    <div className="h-screen flex flex-col bg-gray-50">
+    <div className="h-screen flex flex-col bg-[#4CC8A3]">
       <Navbar />
       <div className="flex-1 p-6 overflow-x-auto">
         <Board />

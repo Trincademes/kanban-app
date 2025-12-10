@@ -20,7 +20,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="h-screen flex items-center justify-center bg-blue-900">
+    <div className="h-screen flex items-center justify-center bg-[#4CC8A3]">
       <div className="bg-white p-10 rounded-2xl shadow-lg w-96">
         <h1 className="text-2xl font-semibold text-center mb-6">Login</h1>
 
@@ -43,7 +43,7 @@ export default function LoginPage() {
 
         {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
 
-        <Button onClick={handleSubmit} className="w-full mt-4">
+        <Button onClick={handleSubmit} className="w-full mt-4 bg-gray-600 hover:bg-gray-400">
           Entrar
         </Button>
       </div>
