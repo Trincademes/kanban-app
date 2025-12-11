@@ -8,7 +8,7 @@ const initialColumns = [
   {
     id: "1",
     title: "Backlog",
-    color: "bg-white",
+    color: "bg-white text-black text-center",
     tasks: [
       { id: "t1", content: "Planejar arquitetura do projeto" },
       { id: "t2", content: "Criar layout inicial do Kanban" },
@@ -20,27 +20,38 @@ const initialColumns = [
       { id: "t8", content: "Configurar cores personalizadas no Tailwind" }
     ]
   },
-  {
+    {
     id: "2",
-    title: "Doing",
-    color: "bg-white",
+    title: "To Do",
+    color: "bg-white text-black text-center",
     tasks: [
-      { id: "t9", content: "Implementar Navbar com ícone de logout" },
-      { id: "t10", content: "Criar componente Board principal" },
-      { id: "t11", content: "Estilizar colunas com Tailwind" },
-      { id: "t12", content: "Centralizar título no header" }
+      { id: "t9", content: "Criação da tela do ADM" },
+      { id: "t10", content: "Teste de responsividade" },
+      { id: "t11", content: "Identação do código" },
+      { id: "t12", content: "Fluxograma da api" }
     ]
   },
   {
     id: "3",
-    title: "Done",
-    color: "bg-white",
+    title: "Doing",
+    color: "bg-white text-black text-center",
     tasks: [
-      { id: "t13", content: "Configurar projeto Next.js" },
-      { id: "t14", content: "Criar sistema de login básico" },
-      { id: "t15", content: "Criar contexto de autenticação (AuthContext)" },
-      { id: "t16", content: "Adicionar proteção de rota no /kanban" },
-      { id: "t17", content: "Criar estrutura inicial das colunas" }
+      { id: "t13", content: "Implementar Navbar com ícone de logout" },
+      { id: "t14", content: "Criar componente Board principal" },
+      { id: "t15", content: "Estilizar colunas com Tailwind" },
+      { id: "t16", content: "Centralizar título no header" }
+    ]
+  },
+  {
+    id: "4",
+    title: "Done",
+    color: "bg-white text-black text-center",
+    tasks: [
+      { id: "t17", content: "Configurar projeto Next.js" },
+      { id: "t18", content: "Criar sistema de login básico" },
+      { id: "t19", content: "Criar contexto de autenticação (AuthContext)" },
+      { id: "t20", content: "Adicionar proteção de rota no /kanban" },
+      { id: "t21", content: "Criar estrutura inicial das colunas" }
     ]
   }
 ];

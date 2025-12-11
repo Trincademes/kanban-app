@@ -22,7 +22,7 @@ export default function LoginPage() {
   return (
     <div className="h-screen flex items-center justify-center bg-[#4CC8A3]">
       <div className="bg-white p-10 rounded-2xl shadow-lg w-96">
-        <h1 className="text-2xl font-semibold text-center mb-6">Login</h1>
+        <h1 className="text-2xl font-semibold text-center mb-6 text-black">Login</h1>
 
         <Input
           label="Usuário"
