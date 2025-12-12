@@ -1,4 +1,4 @@
-# Projeto Final Front-End (Kanban Next.js)
+# Projeto Final Front-End (Kanban Node.js)
 
 ## Pedro Vieira Cavalciuk TADS
 
