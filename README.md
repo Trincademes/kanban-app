@@ -42,6 +42,17 @@ npm run dev
 Abra:\
 http://localhost:3000
 
+## Chave de acesso do Login
+
+### Usuário
+``` bash
+admin
+```
+### Senha
+``` bash
+admin
+```
+
 ## Prévia do Projeto
 
 ![Demonstração do Kanban](video-de-demonstracao.gif)
